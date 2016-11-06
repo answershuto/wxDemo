@@ -1,20 +1,14 @@
 //index.js
 //获取应用实例
-var app = getApp()
+let app = getApp()
 Page({
   data: {
     Github: 'https://github.com/answershuto',
     Blog: 'https://answershuto.github.io',
     userInfo: {}
   },
-  //事件处理函数
-  bindViewTap: function() {
-    wx.navigateTo({
-      url: '../logs/logs'
-    })
-  },
-  onLoad: function () {
-    var that = this
+  onLoad() {
+    let that = this
     //调用应用实例的方法获取全局数据
     app.getUserInfo(function(userInfo){
       //更新数据
