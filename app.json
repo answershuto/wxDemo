@@ -11,21 +11,22 @@
   },
   "tabBar": {
     "color": "#dddddd",
-    "selectedColor": "#fff",
+    "selectedColor": "#21BB32",
+    "borderStyle": "white",
     "navigationBarTitleText": "aaa",
-    "backgroundColor": "blacs",
+    "backgroundColor": "white",
     "list": [
       {
         "pagePath": "pages/index/index",
-        "text": "text",
+        "text": "Home",
         "iconPath": "images/home1.png",
         "selectedIconPath": "images/home2.png"
       },
       {
         "pagePath": "pages/map/map",
-        "text": "text",
-        "iconPath": "images/home1.png",
-        "selectedIconPath": "images/home2.png"
+        "text": "Map",
+        "iconPath": "images/map1.png",
+        "selectedIconPath": "images/map2.png"
       }
     ]
   }
