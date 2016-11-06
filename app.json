@@ -1,7 +1,8 @@
 {
   "pages":[
     "pages/index/index",
-    "pages/map/map"
+    "pages/map/map",
+    "pages/game/game"
   ],
   "window":{
     "backgroundTextStyle":"light",
@@ -27,6 +28,12 @@
         "text": "Map",
         "iconPath": "images/map1.png",
         "selectedIconPath": "images/map2.png"
+      },
+      {
+        "pagePath": "pages/game/game",
+        "text": "Game",
+        "iconPath": "images/player1.png",
+        "selectedIconPath": "images/player2.png"
       }
     ]
   }
