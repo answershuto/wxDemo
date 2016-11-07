@@ -1,0 +1,4 @@
+<view class="container">
+    <view><text>{{num}}</text></view>
+    <button bindtap="handleBtnClick" type="primary">{{state?"开始":"结束"}}</button>
+</view>
